@@ -1,0 +1,141 @@
+/* ROOT ÜBERARBEITEN */
+
+
+
+:root {
+  --silber: #acacac;
+  --green: #b5c8c3;
+  --blue: #4b5cb6;
+  --gelb: #3D2527;
+  --darkred: #3D2527;
+  --black: #4b5cb6;
+  --brown: #855F2C;
+  --orange: #fe5200;
+
+
+  --comp-oak: #b5fed2;
+  --footer-bg: rgba(227, 227, 227, 0.407);
+  --axis: var(--comp-green);
+  --axis-active: var(--green);
+  --site-bg: #fffff;
+  --ex-txt: var(--comp-green);
+  --txt-color: var(--green);
+ 
+  --radius: 15px;
+  --space-left: 10px;
+  --space-right: 10px;
+  --blockbgcolor: #F0F0F0;
+  --screenHeight: 100vh;
+  --headerHeight: 70px;
+  --menuHeight: calc(100vh - var(--headerHeight));
+  --maxWidth: 1800px;
+
+
+}
+
+
+
+/* Intro*/
+
+/* Grundlegende Reset-Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hintergrundbild und Layout */
+body {
+  background-color: rgba(255, 255, 255, 0.2); /* Weiß mit 50% Transparenz */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+
+font-face {
+  font-family: "G2-Erika-Mono";
+  src: url("../fonts/G2-Erika-Mono.woff.woff2") format("woff2");  
+}
+
+
+@font-face {
+font-family: "TrainerGrotesk-Regular";
+src: url("../fonts/EBTrainerGrotesk-Book.woff2") format("woff2");  
+}
+
+
+@font-face {
+font-family: "Adelphe-Fructidor-Regular";
+src: url("../fonts/Adelphe-FructidorRegular.woff2") format("woff2");  
+}
+
+
+p {
+  font-family: "TrainerGrotesk-Regular", sans-serif;
+  color: #855F2C;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-weight: normal;
+  text-decoration: none;
+  }
+
+
+
+/* Container für das Logo */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80vw;
+  margin-left: 20%;
+}
+
+/* Stil für das Logo */
+.logo {
+  position: relative;
+  width: 30vw;
+}
+
+.beschreibung {
+  position: relative;
+  width: 40vw;
+}
+
+
+
+/* Stil für den Kreis */
+.circle {
+  position: absolute;
+  left: 30%;
+  top: 5%;
+  animation: rotateCircle 3s linear infinite;
+  transform-origin: center center; /* Rotationspunkt ins Zentrum setzen */
+  z-index: 1; 
+
+}
+
+
+/* Animation für den Kreis */
+@keyframes rotateCircle {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
+  
+ 

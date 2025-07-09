@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="de" >
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Der Prozess ist der Parcours </title>
+    <link href="css/style-scratch.css" rel="stylesheet">
+
+  </head>
+
+<script>
+    document.addEventListener('mousemove', function(e) {
+        const mybody = document.querySelector('body');
+        const round = document.createElement('span');
+        round.style.left = -125 + e.offsetX + 'px';
+        round.style.top = -125 + e.offsetY + 'px';
+        mybody.appendChild(round);
+    });
+</script>
+
+</body>

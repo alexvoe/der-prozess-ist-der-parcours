@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de" >
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Der Prozess ist der Parcours</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+
+  <div class="corner-menu">
+    <!-- Home-Button als Bild -->
+    <button class="menu-button" link href="index-2.html">
+      <img src="images/Home-Icon.svg" alt="Home">
+    </button>
+    
+    <!-- Weitere Menü-Links -->
+    <div class="menu-items hidden">
+      <a href="index-2.html">Start</a>
+      <a href="about.html">Über</a>
+      <a href="felder.html">Felder</a>
+      <a href="publikation.html">Publi</a>
+
+    </div>
+  </div>
+
+
+
+  <a href="about.html" class="duplex-container dot-container map-dot"></a> 
+
+
+
+<body>
+  <div class="split left-grey">
+    <div class="map-container">
+     <img src="images/hg_vector.svg" alt="Karte" class="map-image">
+  
+      <!-- 8 klickbare Punkte -->
+      <div class="dot-container" style="top: 10%; left: 10%;">
+        <button class="map-dot"  onclick="loadPage('feld_1.html')"></button>
+        <div class="hover-image">
+          <img src="images/Felder_Icons_Herausforderung.svg" alt="Feld 1 Vorschau">
+        </div>
+      </div>
+
+      <div class="dot-container" style="top: 20%; left: 50%;">
+        <button class="map-dot"  onclick="loadPage('feld_2.html')"></button>
+        <div class="hover-image">
+          <img src="images/Felder_Icons_Fragen.svg" alt="Feld 1 Vorschau">
+        </div>
+      </div>
+
+      <div class="dot-container" style="top: 60%; left: 60%;" >
+        <button class="map-dot" onclick="loadPage('feld_3.html')"></button>
+        <div class="hover-image">
+          <img src="images/Felder_Icons_Stoerung.svg" alt="Feld 1 Vorschau">
+        </div>
+      </div>
+
+
+
+      <div class="dot-container" style="top: 80%; left: 20%;" >
+        <button class="map-dot"  onclick="loadPage('feld_4.html')"></button>
+        <div class="hover-image">
+          <img src="images/Felder_Icons_SpracheSpiel.svg" alt="Feld 4 Vorschau">
+        </div>
+      </div>
+
+
+      <div class="dot-container"  style="top: 15%; left: 60%;" >
+          <button class="map-dot" onclick="loadPage('feld_5.html')"></button>
+          <div class="hover-image">
+            <img src="images/Felder_Icons_Sprung.svg" alt="Feld 1 Vorschau">
+          </div>
+        </div>
+
+
+
+      <div class="dot-container" style="top: 35%; left: 75%;">
+         <button class="map-dot" onclick="loadPage('feld_6.html')"></button>
+        <div class="hover-image">
+          <img src="images/Felder_Icons_Standpunkt.svg" alt="Feld 1 Vorschau">
+        </div>
+      </div>
+
+
+        <div class="dot-container"  style="top: 55%; left: 40%;">
+        <button class="map-dot"  onclick="loadPage('feld_7.html')"></button>
+          <div class="hover-image">
+            <img src="images/Felder_Icons_Suche.svg" alt="Feld 1 Vorschau">
+          </div>
+        </div>
+
+
+          <div class="dot-container"  style="top: 90%; left: 35%;" >
+            <button class="map-dot"  onclick="loadPage('scratch.html')"></button>
+            <div class="hover-image">
+              <img src="images/Felder_Icons_Offenlegen.svg" alt="Feld 1 Vorschau">
+            </div>
+          </div>
+
+    </div>
+   </div>
+
+  <div class="split right-brown">
+
+    <div class="text-grid">
+      <div class="text-element">Der Prozess — der Parcours</div>
+      <div class="text-element">Die Spiele — die Felder</div>
+      <div class="text-element">Der Auslöser — die Frage</div>
+      <div class="text-element">Die Belohnung — der Prozess</div>
+    </div>
+
+
+  <div class="pfeile">
+    <img src="images/pfeil-wuerfel_1.svg" class="pfeil-oben">
+    <img src="images/pfeil-wuerfel_2.svg" class="pfeil-unten">
+  <div>
+
+  <div class="dots">
+    <img src="images/dotted_1.svg" class="dotted_1">
+    <img src="images/dotted_1.svg" class="dotted_2">
+
+  <div>
+
+    
+   <div class="split right-bunt felder">
+      <iframe id="content-frame" src="" frameborder="0"></iframe>
+    </div>
+
+</div>
+
+
+  <script src="js/script.js"></script>
+</body>
